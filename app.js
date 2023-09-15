@@ -57,9 +57,6 @@ const criarItem = (Informacoes) => {
     tempo.textContent = Informacoes.tempo
     tempo.classList.add('status')
 
-    
-        ///////////////////////////////////////////
-
         const part1 = document.createElement('div')
         part1.replaceChildren(nome, lidas)
         part1.classList.add('part1')
